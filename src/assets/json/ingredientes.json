@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Agua"
+    },
+    {
+        "id": 2,
+        "name": "Fideos"
+    },
+    {
+        "id": 3,
+        "name": "Chancho"
+    },
+    {
+        "id": 4,
+        "name": "Pollo"
+    },
+    {
+        "id": 5,
+        "name": "Vegetales"
+    },
+    {
+        "id": 6,
+        "name": "Gallina"
+    },    
+    {
+        "id": 7,
+        "name": "Huevo"
+    }
+]

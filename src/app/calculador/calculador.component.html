@@ -1,0 +1,27 @@
+<section class="calculador">
+    <aside class="calculador__ingredientes">
+        <h2>Ingredientes</h2>
+        <div class="calculador__ingredientes__lista">
+            <ul>
+                <!-- desde un web services -->
+                <li *ngFor="let item of ingredientes" (click)="ingredienteClick()">
+                    {{ item.name }}
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <main>
+        <div class="principal"></div>
+        <div class="especies">
+            <h2>Especies</h2>
+            <div class="especies__list">
+                <ul>
+                    <!-- desde un web services -->
+                    <li *ngFor="let especie of especies">
+                        {{ especie.name }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</section>
